@@ -85,7 +85,6 @@
                 }
                 else {
                     try {
-
                         this.isLoading = true
                         const response = await axios.get(`${this.url_base}weather?q=${this.query}&units=metric&appid=${this.api_key}`)
                         const data = response.data
@@ -146,10 +145,6 @@
             min-height: 100vh;
             padding: 25px;
             overflow: hidden;
-
-            /*  @media (max-width: 450px) {
-                    padding: 25px;
-                } */
 
             background-image: linear-gradient(
                 to top,
