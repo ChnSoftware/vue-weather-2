@@ -144,12 +144,12 @@
             align-items: center;
             flex-direction: column;
             min-height: 100vh;
-            padding: 50px 25px 0;
+            padding: 25px;
             overflow: hidden;
 
-           /*  @media (max-width: 450px) {
-                padding: 25px;
-            } */
+            /*  @media (max-width: 450px) {
+                    padding: 25px;
+                } */
 
             background-image: linear-gradient(
                 to top,
@@ -201,7 +201,6 @@
             }
 
             .weather-wrap {
-                margin: auto;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -211,8 +210,8 @@
                 box-shadow: 0 0 10px rgba(white, 1);
 
                 @media (max-width: 450px) {
-                    padding: 30px;
-                    margin: 30px auto 0;
+                    padding: 20px;
+                    margin: 30px auto;
                 }
 
                 .location-box {
@@ -248,7 +247,7 @@
                     .temp {
                         padding: 10px 25px;
                         color: white;
-                        font-size: 100px;
+                        font-size: 75px;
                         font-weight: 700;
                         background-color: rgba(white, 0.25);
                         box-shadow: 0 0 10px rgba(white, 1);
