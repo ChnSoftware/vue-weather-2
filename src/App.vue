@@ -199,6 +199,7 @@
 
                 @media (max-width: 400px) {
                     padding: 30px;
+                    margin-top: 30px;
                 }
 
                 .location-box {
