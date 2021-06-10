@@ -5,7 +5,7 @@
     <div
         v-else
         id="app"
-        :class="new Date().getHours() > 15 ? 'image-1' : 'image-2'"
+        :class="new Date().getHours() > 12 ? 'image-1' : 'image-2'"
     >
         <main>
             <div class="search-box">
@@ -121,6 +121,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        overflow: hidden;
     }
 
     body {
